@@ -6,46 +6,47 @@
   box-shadow: none;
   outline: none; 
 }
-    
+      
 .container-fluid {
   background-color:rgb(174, 164, 209);
   border: none;
   box-shadow: none;
   outline: none;
 }
-    
+  
 .navbar-nav{
   border: none;
   box-shadow: none;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 25px;
 }
-    
+      
 .navbarNavAltMarkup {
   background-color: rgb(5, 0, 0);
   border: none;
   box-shadow: none;
   outline: none;
 }
-
-/* HEADER*/
+  
+/* DESCRIPCION PROYECTO*/
 .card-title-header {
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 65px; 
   text-align: center;
   font-weight: bold;
   color: rgb(249, 239, 239);
+  margin-left: 10%;
 }
 
-.card-pres{
-  background-image: url("./src/fondo.png") ;
+.card-pres {
+  background-image: url("./src/fondo.png");
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 20px;
   height: 30vh;
+  padding: 20px;
   width: 100%;
   box-sizing: border-box;
   border-radius: 5%;
-  
 }
 
 .contenedor-titulo {
@@ -57,15 +58,16 @@
   padding: 20px;
   text-align: center;
 }
-
-.descpripcion-pagina{
+  
+.descpripcion-pagina {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 27px;
-  color: white;
+  font-size: 16px;
+  text-align: justify;
+  color:  rgb(174, 164, 209);
+  margin-left: 6%;
+  max-width: 100%;
   padding: 20px;
-  max-width: 80%;
-  margin-left: 10%;
-  text-align: justify; 
+  margin-right: 19%;
 }
     
 /* TARJETAS  */
