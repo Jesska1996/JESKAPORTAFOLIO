@@ -1,25 +1,25 @@
 /* NAV */
 .menu {
-    padding: 10px;
-    background-color: rgb(174, 164, 209);
-    border: none;
-    box-shadow: none;
-    outline: none; 
+  padding: 10px;
+  background-color: rgb(174, 164, 209);
+  border: none;
+  box-shadow: none;
+  outline: none; 
 }
             
-    .container-fluid {
-    background-color:rgb(174, 164, 209);
-    border: none;
-    box-shadow: none;
-    outline: none;
-    }
+.container-fluid {
+  background-color:rgb(174, 164, 209);
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
         
-    .navbar-nav{
-    border: none;
-    box-shadow: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 25px;
-    }
+.navbar-nav{
+  border: none;
+  box-shadow: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 25px;
+}
             
     .navbarNavAltMarkup {
     background-color: rgb(5, 5, 5);
@@ -39,7 +39,7 @@
     margin-left: 9%;
     }
     .card-pres {
-    background-image: url("./SRC/fondo.png");
+    background-image: url("./scr/fondo.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 30vh;
