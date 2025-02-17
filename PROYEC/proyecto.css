@@ -1,6 +1,6 @@
 /* NAV */
 .menu {
-  padding: 10px;
+  padding: 20px;
   background-color: rgb(174, 164, 209);
   border: none;
   box-shadow: none;
@@ -21,176 +21,207 @@
   font-size: 25px;
 }
             
-    .navbarNavAltMarkup {
-    background-color: rgb(5, 5, 5);
-    border: none;
-    box-shadow: none;
-    outline: none;
-    }
+.navbarNavAltMarkup {
+  background-color: rgb(5, 5, 5);
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
         
-    /* DESCRIPCION PROYECTO*/
-    .card-title-header {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 35px; 
-    font-weight: bold;
-    text-align: center;
-    align-content: center;
-    color: rgb(249, 239, 239);
-    margin-left: 9%;
-    }
-    .card-pres {
-    background-image: url("./scr/fondo.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 30vh;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    overflow: hidden; 
-    width: 100%;
-    box-sizing:border-box;
-    }
+/* DESCRIPCION PROYECTO*/
+  .card-title-header {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 35px; 
+  font-weight: bold;
+  text-align: center;
+  align-content: center;
+  color: rgb(249, 239, 239);
+  margin-left: 35%;
+}
+.card-pres {
+  background-image: url("./scr/fondo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  overflow: hidden; 
+  width: 100%;
+  box-sizing:border-box;
+  }
     
-    .contenedor-titulo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 20px;
-    text-align: center;
-    }
+.contenedor-titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+}
     
-    .descpripcion-pagina {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 15px;
-    text-align: justify;
-    color:  rgb(174, 164, 209);
-    margin-left: 9%;
-    margin-right: 30%;
-    max-width: 85%;
-    }
+.descpripcion-pagina {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 16px;
+  text-align: justify;
+  color:  rgb(174, 164, 209);
+  margin-left: 10%;
+  margin-right: 30%;
+  max-width: 90%;
+}
         
-    body {
-    background-color: rgb(9, 9, 9);
-    padding: 20px;
-    }
+body {
+  background-color: rgb(2, 0, 0);
+  padding: 20px;
+}
     
-    /* TARJETAS  */
-    .tarjetas {
-    padding: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-between;
-    gap: 20px;
-    }
+/* TARJETAS  */
+.tarjetas {
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  gap: 20px;
+}
     
-    .card2 {
-    background-color: rgba(174, 164, 209, 0.676); 
-    border-radius: 12px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    width: 300px; 
-    width: 300px;
-    padding: 25px;
-    }
-    .card-titulo{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 35px; 
-    font-weight: bold;
-    text-align: center;
-    align-content: center;
-    color: rgb(249, 239, 239);
-    }
-    .card-subtitulo{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 35px; 
-    font-weight: bold;
-    text-align: left;
-    color: black;
-    }
-    .card-text {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 15px;
-    text-align: justify;
-    color:  black;
-    }
-    .imgBx {
-    position: relative;
-    height:150px;
-    overflow: hidden;
-    clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
-    }
+.card2 {
+  background-color: rgba(174, 164, 209, 0.676); 
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px; 
+  width: 300px;
+  padding: 25px;
+}
+.card-titulo{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 35px; 
+  font-weight: bold;
+  text-align: center;
+  align-content: center;
+  color: rgb(249, 239, 239);
+}
+.card-subtitulo{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 35px; 
+  font-weight: bold;
+  text-align: left;
+  color: black;
+}
+.card-text {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 15px;
+  text-align: justify;
+  color:  black;
+}
+.imgBx {
+  position: relative;
+  height:150px;
+  overflow: hidden;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
+}
     
-    .imgBx img {
-    width: 100%; 
-    height:100%;
-    object-fit: cover; 
-    }
+.imgBx img {
+  width: 100%; 
+  height:100%;
+  object-fit: cover; 
+}
     
-    .content {
-    padding: 16px;
-    position: relative;
-    margin-top: 15px;
-    }
+.content {
+  padding: 16px;
+  position: relative;
+  margin-top: 15px;
+}
     
-    .content ul {
-    list-style: none;
-    padding: 0;
+.content ul {
+  list-style: none;
+  padding: 0;  
+}
     
-    }
+.content ul li {
+  font-size: 16px;
+  margin: 4px 0;
+}
     
-    .content ul li {
-    font-size: 16px;
-    margin: 4px 0;
-    }
-    
-    p.card-text {
-    font-size: 14px;
+p.card-text {
+  font-size: 16px;
     margin-top: 8px;
-    }
-    .button-container {
-    position: absolute;
-    top: -20px; /* Posiciona el botón en el desnivel */
-    left: 50%;
-    transform: translateX(-50%);
-    }
+}
+.button-container {
+  position: absolute;
+  top: -20px; /* Posiciona el botón en el desnivel */
+  left: 50%;
+  transform: translateX(-50%);
+}
     
-    .button {
-    background-color:white;
-    color: black;
-    padding: 8px 16px;
-    border-radius: 20px;
-    text-decoration: none;
-    font-weight: bold;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-    transition: background-color 0.3s ease;
-    }
-    .button:hover {
-    background-color: #d1a6ff;
-    }
-    @media (max-width: 768px) {
-        .card2 {
-          width: calc(50% - 20px); /* Dos tarjetas por fila en pantallas más pequeñas */
-        }
-      }
-      
-      @media (max-width: 480px) {
-        .card2 {
-          width: 100%; /* Una tarjeta por fila en pantallas muy pequeñas */
-        }
-      }
-      footer {
-        height: 100px;
-        background-image: url("./SRC/footer.png");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat; 
-        display: flex;
-        justify-content: center;
-        filter: opacity(0.9);
-    }
+.button {
+  background-color:white;
+  color: black;
+  padding: 8px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+.button:hover {
+  background-color: #d1a6ff;
+}
+.footer {
+  height: 100px;
+  background-image: url("./SRC/footer.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+  display: flex;
+  justify-content: center;
+  filter: opacity(0.9);
+}
+/*RESPONSIVO*/
+@media (max-width: 768px) {
+  .card-title-header {
+      font-size: 30px;
+  }
+
+  .descpripcion-pagina {
+      margin-right: 1%;
+      font-size: 13px; 
+  }
+
+  .navbar-nav {
+      font-size: 16px;
+      flex-direction: column;
+  }
+
+  .imagen img {
+      margin: 10px auto;
+  }
+
+  .col-4 {
+      margin-top: 20px;
+  }
+
+  textPath {
+      font-size: 60px;
+  }
+}
+/* responsivo */
+
+
+@media (max-width: 576px) { 
+  .descpripcion-pagina,
+  .saludo-1,
+  .saludo-2 {
+      font-size: 12px; /* Tamaño de fuente aún más pequeño */
+  }
+  .card-title-header {
+      font-size: 24px;
+  }
+}
+
+  }
         // Required Bootstrap imports
         @import "../node_modules/bootstrap/scss/variables";
         @import "../node_modules/bootstrap/scss/variables-dark";

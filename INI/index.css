@@ -12,7 +12,6 @@
   border: none;
   box-shadow: none;
   outline: none;
-  border-radius: 10%;
 }
     
 .navbar-nav{
@@ -22,7 +21,7 @@
 }
     
 .navbarNavAltMarkup {
-  background-color: rgb(5, 5, 5);
+  background-color: rgb(5, 0, 0);
   border: none;
   box-shadow: none;
   outline: none;
@@ -33,9 +32,7 @@
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 65px; 
   text-align: center;
-
   font-weight: bold;
-
   color: rgb(249, 239, 239);
 }
 
@@ -47,7 +44,8 @@
   height: 30vh;
   width: 100%;
   box-sizing: border-box;
-  border-radius: 10%;
+  border-radius: 5%;
+  
 }
 
 .contenedor-titulo {
@@ -66,12 +64,13 @@
   color: black;
   padding: 20px;
   max-width: 80%;
+  margin-left: 9%;
   text-align: justify; 
 }
     
 /* PORTAFOLIO E IMAGEN*/
 body {
-  background-color: rgb(9, 9, 9);
+  background-color: rgb(0, 0, 0);
   padding: 20px;
 }
     
@@ -112,6 +111,7 @@ textPath {
   margin-top: 4%;
   box-sizing: border-box;
   flex: 1; 
+  border-radius: 10%;
 }
 
 footer {
@@ -128,12 +128,12 @@ footer {
 /* RESPONSIVO*/
 @media (max-width: 768px) { /* Móviles */
   .card-title-header {
-      font-size: 20px;
+      font-size: 30px;
   }
 
   .navbar-nav {
       font-size: 16px;
-      flex-direction: column; /* Menu vertical */
+      flex-direction: column;
   }
 
   .imagen img {
@@ -141,25 +141,14 @@ footer {
   }
 
   .col-4 {
-      margin-top: 20px; /* Espacio entre columnas */
+      margin-top: 20px; /
   }
 
   textPath {
-      font-size: 24px;
+      font-size: 60px;
   }
 }
-@media (max-width: 768px) {
 
-  /* ... otros estilos para móviles ... */
-
-  .descpripcion-pagina {
-      font-size: 16px; /* Tamaño aumentado */
-  }
-
-  textPath {
-      font-size: 30px; /* Tamaño aumentado */
-  }
-}
 // Required Bootstrap imports
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/variables-dark";
