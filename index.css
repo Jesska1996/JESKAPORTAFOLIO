@@ -8,7 +8,7 @@
 }
       
 .container-fluid {
-  background-color:rgb(174, 164, 209);
+  background-color:rgba(174, 164, 209, 0.603);
   border: none;
   box-shadow: none;
   outline: none;
@@ -17,7 +17,7 @@
 .navbar-nav{
   border: none;
   box-shadow: none;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 25px;
 }
       
@@ -31,15 +31,18 @@
 /* DESCRIPCION PROYECTO*/
 .card-title-header {
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 65px; 
+  font-size: 90px; 
   text-align: center;
   font-weight: bold;
   color: rgb(249, 239, 239);
-  margin-left: 10%;
+  margin-left: 30%;
+  position: absolute;
+  top: 50%;
+
 }
 
 .card-pres {
-  background-image: url("./src/fondo.png");
+  background-image: url("./PAGES/CONTAC/src/fondo.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 30vh;
@@ -57,22 +60,23 @@
   flex-direction: column;
   padding: 20px;
   text-align: center;
-}
   
+}
+ /* PORTAFOLIO E IMAGEN*/ 
 .descpripcion-pagina {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 16px;
+  font-size: 25px;
   text-align: justify;
-  color:  rgb(174, 164, 209);
-  margin-left: 6%;
+  color:  white;
   max-width: 100%;
   padding: 20px;
-  margin-right: 19%;
+
 }
-/* PORTAFOLIO E IMAGEN*/
+
 body {
   background-color: rgb(0, 0, 0);
   padding: 20px;
+  margin-bottom: 20px;
 }
     
 textPath {
@@ -81,14 +85,10 @@ textPath {
   fill: rgb(174, 164, 209);
   font-weight: bold;
   position: absolute;
-  top: 50%
-  margin-top: 10%;
-  left: 50%;
-  transform: translate(-50%, -50%); 
 }
 
 .imagen {
-  position: relative; /* Imagen relativa */
+  position: relative; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -106,18 +106,20 @@ textPath {
   margin: 0 auto;
 }
 
-.col-4 {
-  background-color: rgb(143, 98, 174);
+.col-4{
+  background-color: rgba(144, 98, 174, 0.371);
   padding: 20px;
   margin-top: 4%;
+  margin-bottom: 4%;
   box-sizing: border-box;
   flex: 1; 
   border-radius: 10%;
 }
 
+
 footer {
   height: 100px;
-  background-image: url(./src/footer.png);
+  background-image: url(./PAGES/CONTAC/src/footer.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
