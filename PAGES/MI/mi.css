@@ -86,7 +86,7 @@ body {
   padding: 20px;
 }
         
-.saludo-1, .favorite {
+.saludo-1 {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 5rem;
   font-weight: bold;
@@ -113,35 +113,38 @@ body {
   object-fit: cover;
   padding-top: 30px;
 }
-    
+
 .a1 {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: justify;
   color:  white;
   text-align: justify; 
-  padding: 20px;
-  margin-top: 30px;
+  padding: 6%;
+  margin: 6%;
 }
     
 /* MI INTERES ACADEMICO/DETALLE  */
     
 .b1 {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: justify;
   color:  white;
   text-align: justify; 
-  padding: 20px;
+  padding: 6%;
+  margin: 6%;
 }
 
 .b2 {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: justify;
   color:  white;
   text-align: justify; 
   padding: 20px;
+  padding: 6%;
+  margin: 6%;
 }
 .col-4 {
   background-color:rgba(144, 98, 174, 0.492);
@@ -159,9 +162,20 @@ body {
   align-items: center; 
 
 }
+h2
     
 /* MI INTERES ACADEMICO/DETALLE  */
-    
+.top {
+  background-color:  rgb(174, 164, 209) ;
+ }   
+h2, p {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+  color:  rgb(174, 164, 209);
+  text-align: center; 
+  padding: 0;
+}
 .table .caption-top {
   width: 100%; 
   padding: 20px;
@@ -186,7 +200,7 @@ body {
 
 .table caption {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 1.5rem;
+  font-size: 2rem;
   color:  rgb(0, 0, 0);
   justify-content: center;
 
@@ -194,7 +208,7 @@ body {
 
 .table th {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: white(144, 98, 174, 0.492);
   justify-content: center;
   text-align: justify; 

@@ -58,10 +58,10 @@
 }
 .descpripcion-pagina {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   text-align: justify;
-  margin-left: 9%;
-  margin-right: 20%;
+  margin-left: 12%;
+  margin-right: 17%;
   color:  white;
   max-width: 80%;
   padding: 0px;
@@ -87,9 +87,10 @@ body {
 }
 h1, h2, h3 { 
   font-family: Impact;
-  font-size: 50px;
+  font-size: 4rem;
   text-align: center;
   font-weight: bold;
+  color: black;
 }
 .contact-container, .form-section {
   background-color: rgba(174, 164, 209, 0.04);
@@ -110,7 +111,7 @@ h1, h2, h3 {
 .social-section {
   padding: 20px;
   border-radius: 10px;
-  background-color: rgba(174, 164, 209, 0.995);
+  background-color: rgba(200, 164, 209, 0.837);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 24px;
   font-weight: bold;
@@ -118,7 +119,7 @@ h1, h2, h3 {
  
 .contacto {
   padding: 20px;
-  background-color: rgb(174, 164, 209);
+  background-color: rgba(200, 164, 209, 0.837);
   border-radius: 10px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 24px;
@@ -126,7 +127,7 @@ h1, h2, h3 {
 }
 .form-section {
   padding: 20px;
-  background-color: rgb(174, 164, 209);
+  background-color:rgba(200, 164, 209, 0.837);
   border-radius: 10px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 24px;
@@ -134,37 +135,20 @@ h1, h2, h3 {
 }
     
 button {
-  padding: 10px 20px;
-  background-color: rgb(7, 0, 0);
-  color: rgb(143, 98, 174);
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 24px;
+  background-color:white;
+  color: black;
+  padding: 8px 16px;
+  border-radius: 20px;
+  text-decoration: none;
   font-weight: bold;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
 
-}
-#submit {
-  padding: 10px 20px;
-  background-color: rgb(7, 0, 0);
-  color: rgb(143, 98, 174);
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 24px;
-  font-weight: bold;
-}
-    
 button:hover {
-  background-color: rgb(7, 0, 0);
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 24px;
-  font-weight: bold;
-  color: white;
+  background-color: #d1a6ff;
 }
-    
+
 footer {
   height: 100px;
   background-image: url("./src/footer.png");

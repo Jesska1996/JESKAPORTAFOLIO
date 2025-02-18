@@ -47,7 +47,7 @@
 }
   
 .card-pres {
-  background-image: url("../PROYEC/scr/fondo.png");
+  background-image: url("./scr/fondo.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 30vh;
@@ -58,10 +58,10 @@
 }
 .descpripcion-pagina {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: justify;
   margin-left: 9%;
-  margin-right: 20%;
+  margin-right: 5%;
   color:  white;
   max-width: 80%;
   padding: 0px;
@@ -78,7 +78,7 @@
   margin-top: 8%;
   gap: 10px;
   box-sizing: border-box;
-}  
+}
 /* TARJETAS  */
 
 body {
@@ -86,11 +86,14 @@ body {
   padding: 20px;
 }
 .tarjetas {
-  padding: 30px;
+  margin-top: 5%;
   display: flex;
   flex-wrap: wrap;
   justify-content:space-between;
   gap: 20px;
+  padding: 30px;
+  height: 100%;
+  
 }
     
 .card2 {
@@ -98,13 +101,13 @@ body {
   border-radius: 12px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  width: 300px; 
-  width: 300px;
+  flex: 1 1 calc(33.333% - 20px);
   padding: 25px;
+  height: 100%; 
 }
 .card-titulo{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 22rem;
+  font-size: 3rem;
   font-weight: bold;
   text-align: center;
   align-content: center;
@@ -112,14 +115,14 @@ body {
 }
 .card-subtitulo{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: bold;
   text-align: left;
   color: black;
 }
 .card-text {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: justify;
   color:  black;
 }
@@ -186,127 +189,7 @@ p.card-text {
   justify-content: center;
   filter: opacity(0.9);
 }
-@media (min-width: 992px) { /* Escritorio y pantallas grandes */
-  .card2 {
-    max-width: 400px; /* Aumenta el ancho máximo de las tarjetas */
-  }
-}
 
-@media (min-width: 992px) { /* Escritorio y pantallas grandes */
-  .card-title-header {
-    font-size: 4rem; /* Aumenta el tamaño del título principal */
-  }
-
-  .descpripcion-pagina {
-    font-size: 1.6rem; /* Aumenta el tamaño del texto de descripción */
-  }
-
-  .card-titulo {
-    font-size: 2.5rem; /* Aumenta el tamaño de los títulos de las tarjetas */
-  }
-
-  .card-subtitulo {
-    font-size: 2rem; /* Aumenta el tamaño de los subtítulos de las tarjetas */
-  }
-
-  .card-text {
-    font-size: 1.8rem; /* Aumenta el tamaño del texto de las tarjetas */
-  }
-
-  /* ... otros ajustes de tamaño para elementos que lo necesiten */
-}
-/* MEDIA QUERIES */
-@media (max-width: 767px) { /* Móviles */
-  .card-title-header {
-    font-size: 2rem;
-  }
-
-  .descpripcion-pagina {
-    font-size: 1rem;
-  }
-
-  .card-titulo {
-    font-size: 1.5rem;
-  }
-  .table th, .table td {
-    font-size: 1rem;
-  }
-  .table caption {
-    font-size: 1rem;
-  }
-  .table th {
-    font-size: 1rem;
-  }
-}
-
-@media (min-width: 992px) { /* Escritorio y pantallas grandes */
-  .card-title-header {
-    font-size: 4rem; /* Aumenta el tamaño del título principal */
-  }
-
-  .descpripcion-pagina {
-    font-size: 1.6rem; /* Aumenta el tamaño del texto de descripción */
-  }
-
-  .card-titulo {
-    font-size: 2.5rem; /* Aumenta el tamaño de los títulos de las tarjetas */
-  }
-
-  .card-subtitulo {
-    font-size: 2rem; /* Aumenta el tamaño de los subtítulos de las tarjetas */
-  }
-
-  .card-text {
-    font-size: 1.8rem; /* Aumenta el tamaño del texto de las tarjetas */
-  }
-
-  /* ... otros ajustes de tamaño para elementos que lo necesiten */
-}
-@media (min-width: 768px) and (max-width: 991px) { /* Tabletas */
-  .card-title-header {
-    font-size: 2.5rem;
-  }
-
-  .descpripcion-pagina {
-    font-size: 1.1rem;
-  }
-
-  .card-titulo {
-    font-size: 1.8rem;
-  }
-    .table th, .table td {
-    font-size: 1.5rem;
-  }
-  .table caption {
-    font-size: 1.2rem;
-  }
-  .table th {
-    font-size: 1.2rem;
-  }
-}
-
-@media (min-width: 992px) { /* Escritorio y pantallas grandes */
-  .card-title-header {
-    font-size: 3rem;
-  }
-
-  .descpripcion-pagina {
-    font-size: 1.2rem;
-  }
-
-  .card-titulo {
-    font-size: 2rem;
-  }
-      .table th, .table td {
-    font-size: 2rem;
-  }
-  .table caption {
-    font-size: 1.5rem;
-  }
-  .table th {
-    font-size: 1.5rem;
-  }
-}
 
 
 
