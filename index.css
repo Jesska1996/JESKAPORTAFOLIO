@@ -1,37 +1,50 @@
 /* NAV */
+.container-fluid {
+  background-color:  rgba(144, 98, 174, 0.371);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.5rem;
+  color: rgb(3, 0, 0);
+}
+
 .menu {
   padding: 20px;
-  background-color: rgb(174, 164, 209);
-  border: none;
-  box-shadow: none;
-  outline: none; 
+  background-color: rgba(144, 98, 174, 0.371);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.5rem;
+  color: rgb(3, 0, 0);
 }
   
 .navbar-nav{
-  border: none;
-  box-shadow: none;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 25px;
+  font-size: 1.5rem;
+  background-color: rgba(144, 98, 174, 0.371);
+  color: rgb(3, 0, 0);
 }
       
 .navbarNavAltMarkup {
   background-color: rgb(5, 0, 0);
-  border: none;
-  box-shadow: none;
-  outline: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.5rem;
+  color: rgb(3, 0, 0);
 }
-  
+
+.navbar-toggler{
+  padding: 20px;
+  background-color: rgba(144, 98, 174, 0.371);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.5rem;
+  color: rgb(3, 0, 0);
+}
 /* DESCRIPCION PROYECTO*/
 .card-title-header {
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 90px; 
+  font-size: 8rem; 
   text-align: center;
   font-weight: bold;
   color: rgb(249, 239, 239);
-  margin-left: 30%;
+  margin-left: 20%;
   position: absolute;
   top: 50%;
-
 }
 
 .card-pres {
@@ -45,76 +58,121 @@
   border-radius: 5%;
 }
 
+/* descripción*/ 
+
 .contenedor-titulo {
-  position: relative;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 20px;
-  text-align: center;
-  
+  margin-top: 8%;
+  gap: 10px;
+  box-sizing: border-box;
 }
- /* PORTAFOLIO E IMAGEN*/ 
- .container-fluid {
-  background-color:rgba(174, 164, 209, 0.603);
-  border: none;
-  box-shadow: none;
-  outline: none;
-}
-.descpripcion-pagina {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 25px;
-  text-align: justify;
-  color:  white;
-  max-width: 100%;
-  padding: 20px;
 
-}
+/* PORTAFOLIO E IMAGEN*/ 
 
 body {
   background-color: rgb(0, 0, 0);
+  width: 100%;
   padding: 20px;
   margin-bottom: 20px;
-}
-    
-textPath {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 80px;
-  fill: rgb(174, 164, 209);
-  font-weight: bold;
-  position: absolute;
-}
-
-.imagen {
-  position: relative; 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+} 
 
 .row {
-  display: flex;
-  flex-wrap: wrap; /* Permite que las columnas se ajusten al ancho */
+  width: 100%;
+  display: flex; 
+  flex-wrap: wrap;
+  --bs-gutter-x: 20px;
+}
+
+.col-8 {
+  flex: 2;
+  max-width: 66.66%; 
+  box-sizing: border-box; 
+}
+
+.titulo svg {
+  margin-top: 5%;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+  max-width: 500px;
+  margin: 0; 
+  text-align: center;
+}
+
+textPath {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 6rem;
+  fill: rgb(174, 164, 209);
+  font-weight: bold;
+  text-anchor: middle;
+  justify-content: center;
+}
+
+.imagen { /* Contenedor para la imagen (opcional, pero buena práctica) */
+  display: flex; /* Para centrar la imagen dentro de su contenedor */
+  justify-content: center; /* Centra horizontalmente la imagen */
+  width: 100%; /* Asegura que la imagen no se salga del contenedor */
 }
 
 .imagen img {
   max-width: 100%;
   height: auto;
-  display: block;
-  margin: 0 auto;
+  border-radius: 10px;
+  justify-content: center;
 }
 
-.col-4{
+
+/*TEXTO*/ 
+
+.col-md-4 { 
   background-color: rgba(144, 98, 174, 0.371);
   padding: 20px;
-  margin-top: 4%;
-  margin-bottom: 4%;
+  border-radius: 5%;
+  margin-top: 3%;
+  margin-bottom: 3%;
   box-sizing: border-box;
-  flex: 1; 
-  border-radius: 10%;
 }
 
+.descpripcion-pagina {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.5rem;
+  text-align: justify;
+  color:  white;
+  max-width: 80%;
+  padding: 0px;
+}
+
+/* contenedor peq*/ 
+.col-4-a{
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;  
+}
+
+.container-pq{
+  background-color:rgba(174, 164, 209, 0.967);
+  max-width: 100%;
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content:center;
+  max-height: 110px;
+}
+.title-description {
+  background-color: rgba(144, 98, 174, 0.371);
+  padding: 20px;
+  max-width: 100%;
+  border-radius: 5%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.5rem;
+  text-align: justify;
+  color:  rgb(3, 0, 0);
+}
+/* FOOTER*/ 
 
 footer {
   height: 100px;
@@ -127,29 +185,87 @@ footer {
   filter: opacity(0.9);
 }
 
-/* RESPONSIVO*/
-@media (max-width: 768px) { /* Móviles */
+
+/* RESPONSIVO CEL */
+@media (max-width: 767px) {  /* 767px es un punto de corte común para móviles */
   .card-title-header {
-      font-size: 30px;
-  }
-
-  .navbar-nav {
-      font-size: 16px;
-      flex-direction: column;
-  }
-
-  .imagen img {
-      margin: 10px auto; /* Ajusta el margen de la imagen */
-  }
-
-  .col-4 {
-      margin-top: 20px; /
+    font-size: 4rem; /* Reduce el tamaño del título principal */
+    margin-left: 0; /* Ajusta el margen si es necesario */
+    position: relative; /* Para que no se superponga con otros elementos */
+    top: 0;
   }
 
   textPath {
-      font-size: 60px;
+    font-size: 3rem; /* Reduce el tamaño del textPath */
+  }
+
+  .descpripcion-pagina {
+    font-size: 1.2rem; /* Reduce el tamaño del texto de descripción */
+    max-width: 90%; /* Ajusta el ancho máximo del texto */
+  }
+
+  .titulo svg {
+    max-width: 90%; /* Ajusta el ancho máximo del SVG */
+  }
+
+  .imagen img {
+    max-width: 90%; /* Ajusta el ancho máximo de la imagen */
+  }
+
+  .col-md-4 {
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+
+  .container-pq {
+    max-height: 90px;
+  }
+
+  .title-description {
+    font-size: 1.2rem;
   }
 }
+
+/* RESPONSIVO TABLET */
+@media (min-width: 768px) and (max-width: 991px) { /* Ajusta los puntos de corte según necesites */
+  textPath {
+    font-size: 4rem; /* Tamaño intermedio para tabletas */
+  }
+
+  .descpripcion-pagina {
+    font-size: 1.5rem; /* Tamaño intermedio para tabletas */
+  }
+
+  .titulo svg {
+    max-width: 95%; /* Ajusta el ancho máximo del SVG */
+  }
+
+  .imagen img {
+    max-width: 95%; /* Ajusta el ancho máximo de la imagen */
+  }
+
+  .col-md-4 {
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+
+  .container-pq {
+    max-height: 100px;
+  }
+
+  .title-description {
+    font-size: 1.5rem;
+  }
+}
+
+
+// BOOTSTRAP
+@import "../node_modules/bootstrap/scss/functions";
+
+// Variable overrides second
+$primary: #900;
+$enable-shadows: true;
+$prefix: "mo-";
 
 // Required Bootstrap imports
 @import "../node_modules/bootstrap/scss/variables";
@@ -157,7 +273,7 @@ footer {
 @import "../node_modules/bootstrap/scss/maps";
 @import "../node_modules/bootstrap/scss/mixins";
 @import "../node_modules/bootstrap/scss/root";
-    
+
 // Optional components
 @import "../node_modules/bootstrap/scss/utilities";
 @import "../node_modules/bootstrap/scss/reboot";

@@ -13,23 +13,30 @@
 <header>
   <div class="card text-center">
       <div class="card-header">
-          <nav class="navbar navbar-expand-lg bg-body-tertiary"> 
-              <div class="container-fluid">
-                  <a class="navbar-brand" href="#">MENU</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-          <div class="menu">
-          </button>
-              <div class="collapse navbar-collapse"  id="navbarNavAltMarkup">
-                  <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="/">Inicio</a>
-                      <a class="nav-link" href="./PAGES/MI/mi.html">Sobre mí</a>
-                      <a class="nav-link" href="./PAGES/PROYEC/proyecto.html">Proyectos</a>
-                      <a class="nav-link" href="./PAGES/CONTAC/contac.html">Contacto</a>
-                      </div>
-                  </div>
-              </div>
-              </nav>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">MENU</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="/">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./PAGES/MI/mi.html">Sobre mí</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./PAGES/PROYEC/proyecto.html">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./PAGES/CONTAC/contac.html">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
           <div class="card-body card-pres">
             <h5 class="card-title-header">¡Bienvenidos! </h5>
           </div>
@@ -40,56 +47,58 @@
 <body>
   <div class="container-lg">
     <div class="row">
-      <!-- Columna 8 -->
-      <div class="col-8">
-        <div class="contenedor-titulo">
-          <div class="titulo">
-              <svg width="500" height="200">
-                  <path id="curva" d="M 50 150 Q 250 -50 450 150" fill="transparent" />
-                  <text>
-                    <textPath href="#curva" startOffset="50%" text-anchor="middle">
-                      PORTAFOLIO
-                    </textPath>
-                  </text>
-                </svg>       
-              </div>
-              <div class="imagen">
+      <div class="col-md-8">  <section class="portafolio">
+          <div class="contenedor-titulo">
+            <div class="titulo">
+              <svg>
+                <path id="curva" d="M 50 150 Q 250 -50 450 150" fill="transparent" />
+                <text>
+                  <textPath href="#curva" startOffset="50%" text-anchor="middle">
+                    PORTAFOLIO
+                  </textPath>
+                </text>
+              </svg>
+            </div>
+            <div class="imagen">
               <img src="./src /1.png" alt="IMAGEN-MANOS" />
             </div>
           </div>
+        </section>
       </div>
-      <!-- Columna 4 -->
-      <div class="col-4">
-        <p class="descpripcion-pagina">
-          En este espacio encontrarás una muestra de quién soy y lo que hago.
-          Explora mis proyectos personales, resultado de mi formación en
-          desarrollo web con tecnologías como HTML, CSS, JavaScript y React.
-          Descubre más sobre mi trayectoria y habilidades, así como mi pasión
-          por crear soluciones accesibles, creativas y humanas. ¡Gracias por
-          visitar!
-        </p>
+      <div class="col-md-4">  <section class="contenido">
+          <p class="descpripcion-pagina">
+            En este espacio encontrarás una muestra de quién soy y lo que hago.
+            Explora mis proyectos personales, resultado de mi formación en
+            desarrollo web con tecnologías como HTML, CSS, JavaScript y React.
+            Descubre más sobre mi trayectoria y habilidades, así como mi pasión
+            por crear soluciones accesibles, creativas y humanas. ¡Gracias por
+            visitar!
+          </p>
+        </section>
       </div>
     </div>
   </div>
+</body>
 
 <!-- ******************pequeño ********************* -->
-<div class="container-pq" style="background-color: rgb(174, 164, 209); color: rgb(6, 6, 6);">
+<div class="container-pq">
   <div class="row text-center">
-    <div class="col-4">
+    <div class="col-4-a">
       <h3 class="title-description">Tecnología</h3>
     </div>
-    <div class="col-4">
+    <div class="col-4-a">
       <h3 class="title-description">Humanismo</h3>
     </div>
-    <div class="col-4">
+    <div class="col-4-a">
       <h3 class="title-description">Inclusión</h3>
     </div>
   </div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 <footer>
 
 </footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </html>
