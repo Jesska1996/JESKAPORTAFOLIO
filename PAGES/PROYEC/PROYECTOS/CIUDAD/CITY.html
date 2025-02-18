@@ -1,0 +1,149 @@
+<!DOCTYPE html> 
+<html lang="es"> <!--LENGUA ESPAÑOL"-->
+<head> <!--Metadatos que no son visibles en la página web-->
+    <meta charset="UTF-8"> <!--Los caracteres del documento, para que se interpreten los símbolos en todos los idiomas-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Se utiliza para el responsive, pero no significa que solo agregándola nuestra web app, será responsiva-->
+     <!-- Se agrego estilos de bootstrap -->
+    <title> DOCUMENTACIÓN  </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+<div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary"> 
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse"  id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#Array">Array</a>
+            <a class="nav-link" href="#Array_List">Array List</a>
+            <a class="nav-link" href="#HashMap">HashMap</a>
+            <a class="nav-link" href="#Clase">Clase</a>
+            <a class="nav-link" href="#String">String</a>
+            <a class="nav-link disabled" aria-disabled="true" href="#Programación_Orientada_a_Objetos">Programación Orientada a Objetos</a>
+            </div>
+        </div>
+    </div>
+    </nav>
+</div>
+</header>
+<body>
+<main id="main-doc">
+    <section class="main-section" id="Array">
+    <h1>Array</h1>
+        <p><span class="bold">En esta seccion encontrarás informacion sobre que es un array</p>
+        <p>Un array es una estructura de datos que permite almacenar múltiples elementos del mismo tipo (por ejemplo, enteros, cadenas de texto, etc.).
+        Todos los elementos están almacenados en posiciones específicas llamadas índices.
+        Los índices comienzan en 0, es decir, el primer elemento tiene el índice 0, el segundo el 1, y así sucesivamente.
+        El tamaño del array es fijo, es decir, una vez definido no puede cambiar.
+        </p>
+          <p> <span class="bold">Declaración y creación de arrays: </span></p>
+          <span class="italic"><code>int[] codigoColores = new int[4]; // [0, 0, 0, 0]</span></code>
+          <p>Aquí estamos declarando un array llamado código de Colores que puede almacenar 4 enteros.
+        Todos los elementos del array se inicializan en 0 de forma predeterminada porque es un array de enteros.</p>
+        <section class="main-section" id="Array_List">
+        <h1>Array List</h1>
+          <p> <span class="bold">En esta seccion encontrarás informacion sobre que es un array list</span></p>
+          <p>Un ArrayList en Java es una clase que pertenece al paquete java.  Es una lista ordenada y dinámica que:
+        Permite elementos duplicados.
+        Respeta el orden de inserción (es decir, se mantienen los elementos en el orden en que fueron agregados).
+        Automáticamente ajusta su tamaño conforme se agregan o eliminan elementos.
+        Ofrece métodos útiles como add(), remove(), size(), get(), etc.
+        </p>
+          <p>Sintaxis general:</p>
+          <span class="italic"><code>ArrayList<TipoDeDato> nombreVariable = new ArrayList<>();</code></span>
+          <p>Java no permite usar tipos primitivos (int, double, etc.) directamente en un ArrayList, por eso usamos las clases wrapper como Integer, Double, etc.</p>
+          <p>Declaración de ArrayList:</p>
+          <p><span class="italic"><code>ArrayList<Integer> numeros; // Lista de números enteros 
+        ArrayList<String> nombreEtiquetas; // Lista de cadenas de texto</span></p></code>
+    </section>
+    <section class="main-section" id="HashMap">
+        <h1>HashMap</h1>
+        <p><span class="bold">En esta seccion encontrarás informacion sobre que es un HashMap.</span> </p>
+        <p>Un HashMap es una estructura de datos que almacena pares clave-valor. Es útil cuando necesitas encontrar rápidamente un valor usando una clave única. Algunos puntos clave son:
+        Las claves (keys) deben ser únicas (no se pueden repetir).
+        Los valores (values) pueden repetirse.
+        No garantiza ningún orden específico de los elementos.
+        Ofrece una forma eficiente de almacenar y buscar datos.</p>
+          <p><span class="bold">Instanciar un HashMap:</span></p>
+          <code><p><span class="italic">HashMap<Integer, String> funkos = new HashMap<>();</span></p></code>
+          <p>Aquí estamos creando un HashMap donde las claves son enteros (Integer) y los valores son cadenas de texto (String).</p>
+          <p><span class="bold">Agregar elementos con put()</span></p>
+          <p><span class="italic"><code>funkos.put(1, "Batman"); funkos.put(1329, "Spiderman");</code></span></p>
+          <p>put(key, value) agrega un par clave-valor al mapa.
+        Ejemplo:
+        Clave: 1 → Valor: "Batman"
+        Clave: 1329 → Valor: "Spiderman"
+        Si agregas una clave que ya existe, el valor anterior se reemplaza con el nuevo.</p>
+          <p><span class="italic">Ver el contenido del mapa</p>
+          <code><p>System.out.println(funkos);</p>
+          <p>{1=Batman, 1329=Spiderman, 875=Prision Mike, ...}</code></span></p>
+          <p><span class="bold">Resumen </span>HashMap para almacenar pares clave-valor y realizar las operaciones más comunes como agregar, eliminar, reemplazar, y buscar elementos. También te enseña a iterar sobre las claves y los valores, y cómo ordenar las claves con TreeMap.
+        Estos conceptos son esenciales para trabajar con estructuras de datos en Java, y dominar estos métodos te permitirá manejar colecciones de manera eficiente en tus programas.</p>
+    </section>
+          
+    <section class="main-section" id="Clase">
+    <h1>Clase</h1>
+              <p><span class="bold">En esta seccion encontrarás informacion sobre las clases:</span></p>
+              <p>Una clase en Java es una plantilla o blueprint para crear objetos.
+        Dentro de una clase se definen:
+        Atributos: Son variables que describen las propiedades de los objetos.
+        Métodos: Son funciones que definen el comportamiento de los objetos.</p>
+              <p><span class="bold">Atributos (Variables)</span></p>
+              <p>Los atributos pueden ser:
+        No estáticos (non-static): Cada objeto creado a partir de la clase tendrá su propia copia de estas variables.
+        Estáticos (static): Se comparten entre todos los objetos de la clase, y pertenecen a la clase en sí, no a una instancia específica.</p>
+              <p><span class="italic"><code>String name; // Atributo no estático (propiedad individual de cada objeto)
+        int age; // Atributo no estático
+        int food; // Atributo no estático
+        static String specie; // Atributo estático (compartido por todos los gatos)</code></span></p>
+              <p><span class="bold">Métodos: Estáticos y No Estáticos</span></p>
+              <p><span class="bold">Método no estático (non-static)</span>
+        Un método no estático necesita que se cree un objeto de la clase para poder ser utilizado.</p>
+              <p><span class="italic"><code>int portions(int amount) {
+         return food += amount;
+         }</code></span></p>
+              <p><span class="bold">Método estático (static)</span>
+        Un método estático pertenece a la clase en sí, no a ninguna instancia. Esto significa que se puede llamar sin necesidad de crear un objeto.</p>
+              <p><span class="italic"><code>static String specie() { 
+        return "Bienvenido a Petco! 
+        \\Tenemos: " + specie; }</code></span></p>
+            </section>
+            <section class="main-section" id="String">
+        <h1>String</h1>
+        <p></span class="bold">En esta seccion encontrarás informacion sobre el metodo String:</span></p>
+        <p>Este método no estático es muy importante porque se utiliza para convertir un objeto en una cadena de texto. Es útil cuando quieres imprimir un objeto o verlo en formato de texto legible.</p>
+        <p><span class="bold"><code>public String toString() {
+         return "El gato " + name + " , edad: " + age + " , food: " + food; </code></span></p>
+        <p>Cuando intentas imprimir un objeto de tipo Cat, este método es llamado automáticamente. Ejemplo:</p>
+        <p><span class="bold"><code>Cat gato = new Cat(); 
+        gato.name = "Tibio"; 
+        gato.age = 3; 
+        gato.food = 50; 
+        System.out.println(gato); // Llama a toString() automáticamente
+        El gato Tibio , edad: 3 , food: 50 </code></span></p>
+    </section>
+    <section class="main-section" id="Programación_Orientada_a_Objetos">
+        <h1>Programación Orientada a Objetos</h1>
+          <p><span class="bold">En esta seccion encontrarás informacion sobre los 4 pilares de la Programación Orientada a Objetos:</span></p>
+              <ul>
+                <li>Encapsulación:</li>
+                <li>Herencia:</li>
+                <li>Polimorfismo:</li>
+                <li>Abstracción</li>
+                <li>RESUMEN:</li></ul>
+              <p>Encapsulación: Oculta los detalles internos de un objeto y controla cómo otros objetos acceden a su información.
+        Herencia: Permite que una clase reutilice atributos y métodos de otra clase (por ejemplo, un cajero ATM que herede de una clase general Maquina).
+        Polimorfismo: Habilidad de que un objeto se comporte de múltiples maneras (por ejemplo, un método que funciona de forma diferente en subclases).
+        Abstracción: Define qué hace un objeto sin especificar cómo lo hace en detalle.
+        Los cuatro pilares de OOP son fundamentales para estructurar un programa eficiente y mantenible. En este caso, te enfocaré en lo esencial:</p>
+    </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+
+
