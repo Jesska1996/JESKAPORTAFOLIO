@@ -1,83 +1,90 @@
 /* NAV */
+.container-fluid {
+  background-color:  rgba(144, 98, 174, 0.371);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.5rem;
+  color: rgb(3, 0, 0);
+}
+
 .menu {
   padding: 20px;
-  background-color: rgb(174, 164, 209);
-  border: none;
-  box-shadow: none;
-  outline: none; 
-}
-            
-.container-fluid {
-  background-color:rgb(174, 164, 209);
-  border: none;
-  box-shadow: none;
-  outline: none;
-}
-        
-.navbar-nav{
-  border: none;
-  box-shadow: none;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 25px;
-}
-            
-.navbarNavAltMarkup {
-  background-color: rgb(5, 5, 5);
-  border: none;
-  box-shadow: none;
-  outline: none;
-}
-        
-/* DESCRIPCION PROYECTO*/
-  .card-title-header {
+  background-color: rgba(144, 98, 174, 0.371);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 35px; 
-  font-weight: bold;
-  text-align: center;
-  align-content: center;
-  color: rgb(249, 239, 239);
-  margin-left: 35%;
+  font-size: 1.5rem;
+  color: rgb(3, 0, 0);
 }
+
+.navbar-nav{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.5rem;
+  background-color: rgba(144, 98, 174, 0.371);
+  color: rgb(3, 0, 0);
+}
+        
+.navbarNavAltMarkup {
+  background-color: rgb(5, 0, 0);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.5rem;
+  color: rgb(3, 0, 0);
+}
+.navbar-toggler{
+  padding: 20px;
+  background-color: rgba(144, 98, 174, 0.371);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.5rem;
+  color: rgb(3, 0, 0);
+}
+
+/* DESCRIPCION PROYECTO*/
+.card-title-header {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 4rem; 
+  font-weight: bold;
+  color: rgb(249, 239, 239);
+  position: relative;
+  top: 5%;
+  margin-left: 5%;
+}
+  
 .card-pres {
-  background-image: url("./scr/fondo.png");
+  background-image: url("../PROYEC/scr/fondo.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 30vh;
   padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  overflow: hidden; 
   width: 100%;
-  box-sizing:border-box;
-  }
-    
+  box-sizing: border-box;
+  border-radius: 5%;
+}
+.descpripcion-pagina {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.5rem;
+  text-align: justify;
+  margin-left: 9%;
+  margin-right: 20%;
+  color:  white;
+  max-width: 80%;
+  padding: 0px;
+  margin-top: 30px;
+}
+  
 .contenedor-titulo {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 20px;
-  text-align: center;
-}
-    
-.descpripcion-pagina {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 16px;
-  text-align: justify;
-  color:  rgb(174, 164, 209);
-  margin-left: 10%;
-  margin-right: 30%;
-  max-width: 90%;
-}
-        
+  margin-top: 8%;
+  gap: 10px;
+  box-sizing: border-box;
+}  
+/* TARJETAS  */
+
 body {
-  background-color: rgb(2, 0, 0);
+  background-color: rgb(0, 0, 0);
   padding: 20px;
 }
-    
-/* TARJETAS  */
 .tarjetas {
   padding: 30px;
   display: flex;
@@ -97,7 +104,7 @@ body {
 }
 .card-titulo{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 35px; 
+  font-size: 22rem;
   font-weight: bold;
   text-align: center;
   align-content: center;
@@ -105,14 +112,14 @@ body {
 }
 .card-subtitulo{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 35px; 
+  font-size: 2rem;
   font-weight: bold;
   text-align: left;
   color: black;
 }
 .card-text {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 15px;
+  font-size: 1.5rem;
   text-align: justify;
   color:  black;
 }
@@ -179,52 +186,150 @@ p.card-text {
   justify-content: center;
   filter: opacity(0.9);
 }
-/*RESPONSIVO*/
-@media (max-width: 768px) {
+@media (min-width: 992px) { /* Escritorio y pantallas grandes */
+  .card2 {
+    max-width: 400px; /* Aumenta el ancho máximo de las tarjetas */
+  }
+}
+
+@media (min-width: 992px) { /* Escritorio y pantallas grandes */
   .card-title-header {
-      font-size: 30px;
+    font-size: 4rem; /* Aumenta el tamaño del título principal */
   }
 
   .descpripcion-pagina {
-      margin-right: 1%;
-      font-size: 13px; 
+    font-size: 1.6rem; /* Aumenta el tamaño del texto de descripción */
   }
 
-  .navbar-nav {
-      font-size: 16px;
-      flex-direction: column;
+  .card-titulo {
+    font-size: 2.5rem; /* Aumenta el tamaño de los títulos de las tarjetas */
   }
 
-  .imagen img {
-      margin: 10px auto;
+  .card-subtitulo {
+    font-size: 2rem; /* Aumenta el tamaño de los subtítulos de las tarjetas */
   }
 
-  .col-4 {
-      margin-top: 20px;
+  .card-text {
+    font-size: 1.8rem; /* Aumenta el tamaño del texto de las tarjetas */
   }
 
-  textPath {
-      font-size: 60px;
-  }
+  /* ... otros ajustes de tamaño para elementos que lo necesiten */
 }
-/* responsivo */
-
-
-@media (max-width: 576px) { 
-  .descpripcion-pagina,
-  .saludo-1,
-  .saludo-2 {
-      font-size: 12px; /* Tamaño de fuente aún más pequeño */
-  }
+/* MEDIA QUERIES */
+@media (max-width: 767px) { /* Móviles */
   .card-title-header {
-      font-size: 24px;
+    font-size: 2rem;
+  }
+
+  .descpripcion-pagina {
+    font-size: 1rem;
+  }
+
+  .card-titulo {
+    font-size: 1.5rem;
+  }
+  .table th, .table td {
+    font-size: 1rem;
+  }
+  .table caption {
+    font-size: 1rem;
+  }
+  .table th {
+    font-size: 1rem;
   }
 }
 
+@media (min-width: 992px) { /* Escritorio y pantallas grandes */
+  .card-title-header {
+    font-size: 4rem; /* Aumenta el tamaño del título principal */
   }
-        // Required Bootstrap imports
-        @import "../node_modules/bootstrap/scss/variables";
-        @import "../node_modules/bootstrap/scss/variables-dark";
-        @import "../node_modules/bootstrap/scss/maps";
-        @import "../node_modules/bootstrap/scss/mixins";
-        @import "../node_modules/bootstrap/scss/root";
+
+  .descpripcion-pagina {
+    font-size: 1.6rem; /* Aumenta el tamaño del texto de descripción */
+  }
+
+  .card-titulo {
+    font-size: 2.5rem; /* Aumenta el tamaño de los títulos de las tarjetas */
+  }
+
+  .card-subtitulo {
+    font-size: 2rem; /* Aumenta el tamaño de los subtítulos de las tarjetas */
+  }
+
+  .card-text {
+    font-size: 1.8rem; /* Aumenta el tamaño del texto de las tarjetas */
+  }
+
+  /* ... otros ajustes de tamaño para elementos que lo necesiten */
+}
+@media (min-width: 768px) and (max-width: 991px) { /* Tabletas */
+  .card-title-header {
+    font-size: 2.5rem;
+  }
+
+  .descpripcion-pagina {
+    font-size: 1.1rem;
+  }
+
+  .card-titulo {
+    font-size: 1.8rem;
+  }
+    .table th, .table td {
+    font-size: 1.5rem;
+  }
+  .table caption {
+    font-size: 1.2rem;
+  }
+  .table th {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 992px) { /* Escritorio y pantallas grandes */
+  .card-title-header {
+    font-size: 3rem;
+  }
+
+  .descpripcion-pagina {
+    font-size: 1.2rem;
+  }
+
+  .card-titulo {
+    font-size: 2rem;
+  }
+      .table th, .table td {
+    font-size: 2rem;
+  }
+  .table caption {
+    font-size: 1.5rem;
+  }
+  .table th {
+    font-size: 1.5rem;
+  }
+}
+
+
+
+
+// BOOTSTRAP
+@import "../node_modules/bootstrap/scss/functions";
+
+// Variable overrides second
+$primary: #900;
+$enable-shadows: true;
+$prefix: "mo-";
+
+// Required Bootstrap imports
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables-dark";
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+
+// Optional components
+@import "../node_modules/bootstrap/scss/utilities";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/containers";
+@import "../node_modules/bootstrap/scss/grid";
+@import "../node_modules/bootstrap/scss/helpers";
+@import "../node_modules/bootstrap/scss/utilities/api";
